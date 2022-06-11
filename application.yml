@@ -1,0 +1,2 @@
+- name: C/C++ Lint Action
+  uses: cpp-linter/cpp-linter-action@v1.4.3
