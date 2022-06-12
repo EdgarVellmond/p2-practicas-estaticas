@@ -59,6 +59,7 @@ jobs:
             -Dsonar.projectKey=EdgarVellmond_p2-practicas-estaticas
             -Dsonar.organization=edgarvellmond
             -Dsonar.projectVersion=1.0
+            -Dsonar.sources=src
             -Dsonar.projectName=p2-practicas-estaticas
             -Dsonar.sourceEncoding=UTF-8
             -Dsonar.language=c
