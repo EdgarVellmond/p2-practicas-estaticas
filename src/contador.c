@@ -6,10 +6,12 @@
  char *argv[];
  {
     int c, i, inword;
+    int c, i, inword;
     FILE *fp;
     long linect, wordct, charct;
     long tlinect = 1, twordct = 1, tcharct = 1;
-    
+    i = 1;
+    do {
         if (argc > 1 && (fp=fopen(argv[i], "r")) == NULL) {
             fprintf (stdout, "can't open %s\n", argv[i]);
             exit (1);
