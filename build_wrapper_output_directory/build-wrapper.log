@@ -1,0 +1,7 @@
+Sat Jun 11 18:12:28 2022: build-wrapper, version 6.34 (win-x86-64)
+Sat Jun 11 18:12:28 2022: isWow64: 0
+Sat Jun 11 18:12:28 2022: windows version: 6.2, service pack: 0.0, build number: 9200, product type: 1
+Sat Jun 11 18:12:28 2022: current directory: C:\Users\edgar\Documents\GitHub\p2-practicas-estaticas
+Sat Jun 11 18:12:28 2022: cwd: <C:\Users\edgar\Documents\GitHub\p2-practicas-estaticas>
+Sat Jun 11 18:12:28 2022: out-dir absolute path: <C:\Users\edgar\Documents\GitHub\p2-practicas-estaticas\build_wrapper_output_directory>
+Sat Jun 11 18:12:28 2022: command line received: <MSBuild.exe /t:Rebuild /nodeReuse:False>
