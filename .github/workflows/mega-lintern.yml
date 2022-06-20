@@ -9,9 +9,6 @@ on:
   pull_request:
     branches: [ main ]
 
-ENABLE_LINTERS: 
-  - C_CPPLINT
-
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
@@ -41,6 +38,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
           # DISABLE: COPYPASTE,SPELL # Uncomment to disable copy-paste and spell checks
+          ENABLE_LINTERS: 
+            - C_CPPLINT
 
       # Upload MegaLinter artifacts
       - name: Archive production artifacts
