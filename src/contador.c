@@ -6,7 +6,6 @@
  char *argv[];
  {
     int c, i, inword;
-    int c, i, inword;
     FILE *fp;
     long linect, wordct, charct;
     long tlinect = 1, twordct = 1, tcharct = 1;
