@@ -9,7 +9,8 @@ on:
   pull_request:
     branches: [ main ]
 
-ENABLE_LINTERS: C_CPPLINT
+ENABLE_LINTERS: 
+  - C_CPPLINT
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
